@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.121.12](https://github.com/promptfoo/promptfoo/compare/0.121.11...0.121.12) (2026-05-10)
+
+
+### Features
+
+* **code-scan:** add SARIF output support ([#9161](https://github.com/promptfoo/promptfoo/issues/9161)) ([4da26e9](https://github.com/promptfoo/promptfoo/commit/4da26e95e4837ad9fd3363dfb52a86e5e1ceb66d))
+* **code-scan:** refine SARIF output ergonomics ([#9159](https://github.com/promptfoo/promptfoo/issues/9159)) ([ea3a655](https://github.com/promptfoo/promptfoo/commit/ea3a65521c55a7360cc315efa5f971673fb1f981))
+* **examples:** expand google adk integration ([#9047](https://github.com/promptfoo/promptfoo/issues/9047)) ([f190033](https://github.com/promptfoo/promptfoo/commit/f1900336eb1fe77bd4cff39f2083b80cf6349b92))
+* **mcp:** add response transforms ([#8943](https://github.com/promptfoo/promptfoo/issues/8943)) ([5d90bb7](https://github.com/promptfoo/promptfoo/commit/5d90bb724df6be7b028f032dd2a62b36c66e9510))
+* **providers:** support Agents SDK 0.9 workflows ([#9128](https://github.com/promptfoo/promptfoo/issues/9128)) ([0505ea1](https://github.com/promptfoo/promptfoo/commit/0505ea125003e1db71b6ba67b2f5521f7a0ccd83))
+
+
+### Bug Fixes
+
+* **deps:** resolve active advisories ([#9153](https://github.com/promptfoo/promptfoo/issues/9153)) ([47cd609](https://github.com/promptfoo/promptfoo/commit/47cd6090006670f376fb68b3b0a38a264f6c713f))
+* **providers:** avoid constant-key cache HMAC ([#9152](https://github.com/promptfoo/promptfoo/issues/9152)) ([2b5db89](https://github.com/promptfoo/promptfoo/commit/2b5db898c7a51a354e1f0198cc952218b197c5af))
+* **providers:** support realtime tools in persistent sessions ([#9137](https://github.com/promptfoo/promptfoo/issues/9137)) ([00f6518](https://github.com/promptfoo/promptfoo/commit/00f6518b925419d52346dbc17e15f550ad44cdf3))
+* resolve code quality findings ([#9151](https://github.com/promptfoo/promptfoo/issues/9151)) ([83d80b8](https://github.com/promptfoo/promptfoo/commit/83d80b8dd6b02afb236c4170ae69f1be3b9c1671))
+* **ui:** improve table filter accessibility ([#9166](https://github.com/promptfoo/promptfoo/issues/9166)) ([cb5dab7](https://github.com/promptfoo/promptfoo/commit/cb5dab7d3907d53919d891c824a3bc0ef6df0070))
+* **ui:** wrap static table filters ([#9167](https://github.com/promptfoo/promptfoo/issues/9167)) ([9fffdca](https://github.com/promptfoo/promptfoo/commit/9fffdca717fedc9f6b0bb7fdde5a1c4722e63ba7))
+* **webui:** anchor nav menus to their triggers ([#9154](https://github.com/promptfoo/promptfoo/issues/9154)) ([cfb474d](https://github.com/promptfoo/promptfoo/commit/cfb474d631a10e28831df7a0c7f897247c950276))
+* **webui:** restore nav dropdown animations and clean up after [#9154](https://github.com/promptfoo/promptfoo/issues/9154) ([#9169](https://github.com/promptfoo/promptfoo/issues/9169)) ([d0337d7](https://github.com/promptfoo/promptfoo/commit/d0337d710ad2547e74d09094816cb0a4bed5cffd))
+
 ## [0.121.11](https://github.com/promptfoo/promptfoo/compare/0.121.10...0.121.11) (2026-05-08)
 
 ### Features
